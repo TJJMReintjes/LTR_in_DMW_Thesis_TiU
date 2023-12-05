@@ -36,12 +36,14 @@ Therefore, this codebase is purely meant as inspirational basis for further impl
 
 ## Usage
 - Ensure all libraries are installed, using: pip install `requirements.txt`.
-- Install https://github.com/microsoft/LightGBM/tree/master/python-package (take time for this)
+- Install https://github.com/microsoft/LightGBM/tree/master/python-package (take time for this, do understand the framework)
 - The code can be run on local machines with similar specifications, however external GPU is recommended using during a real complete dataset.
 - This contains a mock dataset, thus the scores are randomly distributed. This results of the mock dataset are 'meaningless' feature importances.
 - This following sources are used to obtain this codebase:
 https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GroupShuffleSplit.html
+
 https://github.com/microsoft/LightGBM/tree/master/python-package
+
 https://github.com/lezzago/LambdaMart
 
 
